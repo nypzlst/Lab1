@@ -77,5 +77,39 @@ namespace Lab__1
                 resultLabelTab3.Text = ex.Message;
             }
         }
+
+        private void passwordButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int password = int.Parse(passwordTextBox.Text);
+
+                switch (password)
+                {
+                    case 1747:
+                    case 9583:
+                        resultTab4.Text = "Доступні модулі : A, B, C";
+                        break;
+                    case 3331:
+                    case 7922:
+                        resultTab4.Text = "Доступні модулі : B,C";
+                        break;
+                    case 9455:
+                    case 8997:
+                        resultTab4.Text = "Доступні модулі : C";
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                resultTab4.Text = ex.Message;
+            }
+        }
+
+        private void passwordTextBox_TextChanged(object sender, EventArgs e)
+        {
+            passwordTextBox.PasswordChar = '*';
+            passwordTextBox.MaxLength = 10;
+        }
     }
 }

@@ -46,9 +46,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.resultTab3 = new System.Windows.Forms.Button();
             this.bTextBox = new System.Windows.Forms.TextBox();
             this.cTextBox = new System.Windows.Forms.TextBox();
@@ -57,13 +54,23 @@
             this.bLabel = new System.Windows.Forms.Label();
             this.cLabel = new System.Windows.Forms.Label();
             this.resultLabelTab3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.passwordButton = new System.Windows.Forms.Button();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
+            this.passLabel = new System.Windows.Forms.Label();
+            this.resultTab4 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -237,6 +244,11 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.resultTab4);
+            this.tabPage4.Controls.Add(this.passLabel);
+            this.tabPage4.Controls.Add(this.passwordTextBox);
+            this.tabPage4.Controls.Add(this.passwordButton);
+            this.tabPage4.Controls.Add(this.pictureBox4);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -254,34 +266,6 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_08_114343;
-            this.pictureBox1.ImageLocation = "";
-            this.pictureBox1.Location = new System.Drawing.Point(51, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(651, 116);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_13_111645;
-            this.pictureBox2.Location = new System.Drawing.Point(61, 41);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(663, 52);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_13_115025;
-            this.pictureBox3.Location = new System.Drawing.Point(40, 27);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(707, 74);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
             // 
             // resultTab3
             // 
@@ -350,6 +334,79 @@
             this.resultLabelTab3.TabIndex = 8;
             this.resultLabelTab3.Text = "Результат :";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_08_114343;
+            this.pictureBox1.ImageLocation = "";
+            this.pictureBox1.Location = new System.Drawing.Point(51, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(651, 116);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_13_111645;
+            this.pictureBox2.Location = new System.Drawing.Point(61, 41);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(663, 52);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_13_115025;
+            this.pictureBox3.Location = new System.Drawing.Point(40, 27);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(707, 74);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_13_120034;
+            this.pictureBox4.Location = new System.Drawing.Point(67, 19);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(655, 121);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // passwordButton
+            // 
+            this.passwordButton.Location = new System.Drawing.Point(67, 223);
+            this.passwordButton.Name = "passwordButton";
+            this.passwordButton.Size = new System.Drawing.Size(75, 23);
+            this.passwordButton.TabIndex = 1;
+            this.passwordButton.Text = "Увійти";
+            this.passwordButton.UseVisualStyleBackColor = true;
+            this.passwordButton.Click += new System.EventHandler(this.passwordButton_Click);
+            // 
+            // passwordTextBox
+            // 
+            this.passwordTextBox.Location = new System.Drawing.Point(210, 161);
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
+            this.passwordTextBox.TabIndex = 2;
+            this.passwordTextBox.TextChanged += new System.EventHandler(this.passwordTextBox_TextChanged);
+            // 
+            // passLabel
+            // 
+            this.passLabel.AutoSize = true;
+            this.passLabel.Location = new System.Drawing.Point(64, 168);
+            this.passLabel.Name = "passLabel";
+            this.passLabel.Size = new System.Drawing.Size(84, 13);
+            this.passLabel.TabIndex = 3;
+            this.passLabel.Text = "Введіть пароль";
+            // 
+            // resultTab4
+            // 
+            this.resultTab4.AutoSize = true;
+            this.resultTab4.Location = new System.Drawing.Point(207, 228);
+            this.resultTab4.Name = "resultTab4";
+            this.resultTab4.Size = new System.Drawing.Size(94, 13);
+            this.resultTab4.TabIndex = 4;
+            this.resultTab4.Text = "Доступні модулі :";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -365,9 +422,12 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -403,6 +463,11 @@
         private System.Windows.Forms.TextBox cTextBox;
         private System.Windows.Forms.TextBox bTextBox;
         private System.Windows.Forms.Button resultTab3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label resultTab4;
+        private System.Windows.Forms.Label passLabel;
+        private System.Windows.Forms.TextBox passwordTextBox;
+        private System.Windows.Forms.Button passwordButton;
     }
 }
 
