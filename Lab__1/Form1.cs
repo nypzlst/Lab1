@@ -35,5 +35,24 @@ namespace Lab__1
                 ResultLabel.Text = ex.Message;
             }
         }
+
+        private void ResultButtonTab2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int firstElement = int.Parse(firstElemTextBox.Text);
+                int secondElement = int.Parse(denominatorTextBox.Text);
+                int thirdElement = int.Parse(countElemTextBox.Text);
+
+                double nElem = firstElement + secondElement * (thirdElement - 1);
+                double nSum = ((firstElement + nElem)* thirdElement / 2);
+
+                resultTab2.Text = $"Результат : {nSum}";
+            }
+            catch (Exception ex)
+            {
+                resultTab2.Text = ex.Message;
+            }
+        }
     }
 }

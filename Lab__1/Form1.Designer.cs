@@ -31,14 +31,25 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.ResultLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.XTextBox = new System.Windows.Forms.TextBox();
             this.ResultButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.countElemTextBox = new System.Windows.Forms.TextBox();
+            this.denominatorTextBox = new System.Windows.Forms.TextBox();
+            this.firstElemTextBox = new System.Windows.Forms.TextBox();
+            this.firstElem = new System.Windows.Forms.Label();
+            this.denominator = new System.Windows.Forms.Label();
+            this.countElem = new System.Windows.Forms.Label();
+            this.ResultButtonTab2 = new System.Windows.Forms.Button();
+            this.resultTab2 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -75,16 +86,6 @@
             this.ResultLabel.TabIndex = 4;
             this.ResultLabel.Text = "Результат";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_08_114343;
-            this.pictureBox1.ImageLocation = "";
-            this.pictureBox1.Location = new System.Drawing.Point(51, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(651, 116);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // XTextBox
             // 
             this.XTextBox.Location = new System.Drawing.Point(99, 158);
@@ -114,6 +115,15 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.resultTab2);
+            this.tabPage2.Controls.Add(this.ResultButtonTab2);
+            this.tabPage2.Controls.Add(this.countElem);
+            this.tabPage2.Controls.Add(this.denominator);
+            this.tabPage2.Controls.Add(this.firstElem);
+            this.tabPage2.Controls.Add(this.firstElemTextBox);
+            this.tabPage2.Controls.Add(this.denominatorTextBox);
+            this.tabPage2.Controls.Add(this.countElemTextBox);
+            this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -121,6 +131,92 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_08_114343;
+            this.pictureBox1.ImageLocation = "";
+            this.pictureBox1.Location = new System.Drawing.Point(51, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(651, 116);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_13_111645;
+            this.pictureBox2.Location = new System.Drawing.Point(61, 41);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(663, 52);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // countElemTextBox
+            // 
+            this.countElemTextBox.Location = new System.Drawing.Point(174, 178);
+            this.countElemTextBox.Name = "countElemTextBox";
+            this.countElemTextBox.Size = new System.Drawing.Size(77, 20);
+            this.countElemTextBox.TabIndex = 1;
+            // 
+            // denominatorTextBox
+            // 
+            this.denominatorTextBox.Location = new System.Drawing.Point(173, 152);
+            this.denominatorTextBox.Name = "denominatorTextBox";
+            this.denominatorTextBox.Size = new System.Drawing.Size(78, 20);
+            this.denominatorTextBox.TabIndex = 2;
+            // 
+            // firstElemTextBox
+            // 
+            this.firstElemTextBox.Location = new System.Drawing.Point(174, 126);
+            this.firstElemTextBox.Name = "firstElemTextBox";
+            this.firstElemTextBox.Size = new System.Drawing.Size(77, 20);
+            this.firstElemTextBox.TabIndex = 3;
+            // 
+            // firstElem
+            // 
+            this.firstElem.AutoSize = true;
+            this.firstElem.Location = new System.Drawing.Point(61, 132);
+            this.firstElem.Name = "firstElem";
+            this.firstElem.Size = new System.Drawing.Size(73, 13);
+            this.firstElem.TabIndex = 4;
+            this.firstElem.Text = "Перший член";
+            // 
+            // denominator
+            // 
+            this.denominator.AutoSize = true;
+            this.denominator.Location = new System.Drawing.Point(61, 158);
+            this.denominator.Name = "denominator";
+            this.denominator.Size = new System.Drawing.Size(64, 13);
+            this.denominator.TabIndex = 5;
+            this.denominator.Text = "Знаменник";
+            // 
+            // countElem
+            // 
+            this.countElem.AutoSize = true;
+            this.countElem.Location = new System.Drawing.Point(61, 184);
+            this.countElem.Name = "countElem";
+            this.countElem.Size = new System.Drawing.Size(73, 13);
+            this.countElem.TabIndex = 6;
+            this.countElem.Text = "Число членів";
+            // 
+            // ResultButtonTab2
+            // 
+            this.ResultButtonTab2.Location = new System.Drawing.Point(61, 232);
+            this.ResultButtonTab2.Name = "ResultButtonTab2";
+            this.ResultButtonTab2.Size = new System.Drawing.Size(126, 23);
+            this.ResultButtonTab2.TabIndex = 7;
+            this.ResultButtonTab2.Text = "Знайти суму";
+            this.ResultButtonTab2.UseVisualStyleBackColor = true;
+            this.ResultButtonTab2.Click += new System.EventHandler(this.ResultButtonTab2_Click);
+            // 
+            // resultTab2
+            // 
+            this.resultTab2.AutoSize = true;
+            this.resultTab2.Location = new System.Drawing.Point(215, 237);
+            this.resultTab2.Name = "resultTab2";
+            this.resultTab2.Size = new System.Drawing.Size(65, 13);
+            this.resultTab2.TabIndex = 8;
+            this.resultTab2.Text = "Результат :";
             // 
             // Form1
             // 
@@ -133,7 +229,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -148,6 +247,15 @@
         private System.Windows.Forms.Button ResultButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label ResultLabel;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button ResultButtonTab2;
+        private System.Windows.Forms.Label countElem;
+        private System.Windows.Forms.Label denominator;
+        private System.Windows.Forms.Label firstElem;
+        private System.Windows.Forms.TextBox firstElemTextBox;
+        private System.Windows.Forms.TextBox denominatorTextBox;
+        private System.Windows.Forms.TextBox countElemTextBox;
+        private System.Windows.Forms.Label resultTab2;
     }
 }
 

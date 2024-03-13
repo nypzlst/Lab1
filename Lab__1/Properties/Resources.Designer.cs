@@ -69,5 +69,15 @@ namespace Lab__1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2024_03_13_111645 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2024-03-13 111645", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
