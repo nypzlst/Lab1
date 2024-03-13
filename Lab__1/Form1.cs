@@ -54,5 +54,28 @@ namespace Lab__1
                 resultTab2.Text = ex.Message;
             }
         }
+
+        private void resultTab3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int a = int.Parse(aTextBox.Text);
+                int b = int.Parse(bTextBox.Text);
+                int c = int.Parse(cTextBox.Text);
+
+                if(a == b &&  b ==c)
+                {
+                    resultLabelTab3.Text = "Трикутник рівносторонній";
+                }
+                else
+                {
+                    resultLabelTab3.Text = "Трикутник не рівносторонній";
+                }
+            }
+            catch (Exception ex)
+            {
+                resultLabelTab3.Text = ex.Message;
+            }
+        }
     }
 }
