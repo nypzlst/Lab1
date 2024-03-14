@@ -35,44 +35,51 @@
             this.ResultButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.countElemTextBox = new System.Windows.Forms.TextBox();
-            this.denominatorTextBox = new System.Windows.Forms.TextBox();
-            this.firstElemTextBox = new System.Windows.Forms.TextBox();
-            this.firstElem = new System.Windows.Forms.Label();
-            this.denominator = new System.Windows.Forms.Label();
-            this.countElem = new System.Windows.Forms.Label();
-            this.ResultButtonTab2 = new System.Windows.Forms.Button();
             this.resultTab2 = new System.Windows.Forms.Label();
+            this.ResultButtonTab2 = new System.Windows.Forms.Button();
+            this.countElem = new System.Windows.Forms.Label();
+            this.denominator = new System.Windows.Forms.Label();
+            this.firstElem = new System.Windows.Forms.Label();
+            this.firstElemTextBox = new System.Windows.Forms.TextBox();
+            this.denominatorTextBox = new System.Windows.Forms.TextBox();
+            this.countElemTextBox = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.resultTab3 = new System.Windows.Forms.Button();
-            this.bTextBox = new System.Windows.Forms.TextBox();
-            this.cTextBox = new System.Windows.Forms.TextBox();
-            this.aTextBox = new System.Windows.Forms.TextBox();
-            this.aLabel = new System.Windows.Forms.Label();
-            this.bLabel = new System.Windows.Forms.Label();
-            this.cLabel = new System.Windows.Forms.Label();
             this.resultLabelTab3 = new System.Windows.Forms.Label();
+            this.cLabel = new System.Windows.Forms.Label();
+            this.bLabel = new System.Windows.Forms.Label();
+            this.aLabel = new System.Windows.Forms.Label();
+            this.aTextBox = new System.Windows.Forms.TextBox();
+            this.cTextBox = new System.Windows.Forms.TextBox();
+            this.bTextBox = new System.Windows.Forms.TextBox();
+            this.resultTab3 = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.resultTab4 = new System.Windows.Forms.Label();
+            this.passLabel = new System.Windows.Forms.Label();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
+            this.passwordButton = new System.Windows.Forms.Button();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.EnteredTextLabel = new System.Windows.Forms.Label();
+            this.CounterLabel = new System.Windows.Forms.Label();
+            this.CounterButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.passwordButton = new System.Windows.Forms.Button();
-            this.passwordTextBox = new System.Windows.Forms.TextBox();
-            this.passLabel = new System.Windows.Forms.Label();
-            this.resultTab4 = new System.Windows.Forms.Label();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.TextBox7 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -160,53 +167,14 @@
             this.tabPage2.Text = "Завдання 2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // countElemTextBox
+            // resultTab2
             // 
-            this.countElemTextBox.Location = new System.Drawing.Point(174, 178);
-            this.countElemTextBox.Name = "countElemTextBox";
-            this.countElemTextBox.Size = new System.Drawing.Size(77, 20);
-            this.countElemTextBox.TabIndex = 1;
-            // 
-            // denominatorTextBox
-            // 
-            this.denominatorTextBox.Location = new System.Drawing.Point(173, 152);
-            this.denominatorTextBox.Name = "denominatorTextBox";
-            this.denominatorTextBox.Size = new System.Drawing.Size(78, 20);
-            this.denominatorTextBox.TabIndex = 2;
-            // 
-            // firstElemTextBox
-            // 
-            this.firstElemTextBox.Location = new System.Drawing.Point(174, 126);
-            this.firstElemTextBox.Name = "firstElemTextBox";
-            this.firstElemTextBox.Size = new System.Drawing.Size(77, 20);
-            this.firstElemTextBox.TabIndex = 3;
-            // 
-            // firstElem
-            // 
-            this.firstElem.AutoSize = true;
-            this.firstElem.Location = new System.Drawing.Point(61, 132);
-            this.firstElem.Name = "firstElem";
-            this.firstElem.Size = new System.Drawing.Size(73, 13);
-            this.firstElem.TabIndex = 4;
-            this.firstElem.Text = "Перший член";
-            // 
-            // denominator
-            // 
-            this.denominator.AutoSize = true;
-            this.denominator.Location = new System.Drawing.Point(61, 158);
-            this.denominator.Name = "denominator";
-            this.denominator.Size = new System.Drawing.Size(64, 13);
-            this.denominator.TabIndex = 5;
-            this.denominator.Text = "Знаменник";
-            // 
-            // countElem
-            // 
-            this.countElem.AutoSize = true;
-            this.countElem.Location = new System.Drawing.Point(61, 184);
-            this.countElem.Name = "countElem";
-            this.countElem.Size = new System.Drawing.Size(73, 13);
-            this.countElem.TabIndex = 6;
-            this.countElem.Text = "Число членів";
+            this.resultTab2.AutoSize = true;
+            this.resultTab2.Location = new System.Drawing.Point(211, 232);
+            this.resultTab2.Name = "resultTab2";
+            this.resultTab2.Size = new System.Drawing.Size(65, 13);
+            this.resultTab2.TabIndex = 8;
+            this.resultTab2.Text = "Результат :";
             // 
             // ResultButtonTab2
             // 
@@ -218,14 +186,53 @@
             this.ResultButtonTab2.UseVisualStyleBackColor = true;
             this.ResultButtonTab2.Click += new System.EventHandler(this.ResultButtonTab2_Click);
             // 
-            // resultTab2
+            // countElem
             // 
-            this.resultTab2.AutoSize = true;
-            this.resultTab2.Location = new System.Drawing.Point(211, 232);
-            this.resultTab2.Name = "resultTab2";
-            this.resultTab2.Size = new System.Drawing.Size(65, 13);
-            this.resultTab2.TabIndex = 8;
-            this.resultTab2.Text = "Результат :";
+            this.countElem.AutoSize = true;
+            this.countElem.Location = new System.Drawing.Point(61, 184);
+            this.countElem.Name = "countElem";
+            this.countElem.Size = new System.Drawing.Size(73, 13);
+            this.countElem.TabIndex = 6;
+            this.countElem.Text = "Число членів";
+            // 
+            // denominator
+            // 
+            this.denominator.AutoSize = true;
+            this.denominator.Location = new System.Drawing.Point(61, 158);
+            this.denominator.Name = "denominator";
+            this.denominator.Size = new System.Drawing.Size(64, 13);
+            this.denominator.TabIndex = 5;
+            this.denominator.Text = "Знаменник";
+            // 
+            // firstElem
+            // 
+            this.firstElem.AutoSize = true;
+            this.firstElem.Location = new System.Drawing.Point(61, 132);
+            this.firstElem.Name = "firstElem";
+            this.firstElem.Size = new System.Drawing.Size(73, 13);
+            this.firstElem.TabIndex = 4;
+            this.firstElem.Text = "Перший член";
+            // 
+            // firstElemTextBox
+            // 
+            this.firstElemTextBox.Location = new System.Drawing.Point(174, 126);
+            this.firstElemTextBox.Name = "firstElemTextBox";
+            this.firstElemTextBox.Size = new System.Drawing.Size(77, 20);
+            this.firstElemTextBox.TabIndex = 3;
+            // 
+            // denominatorTextBox
+            // 
+            this.denominatorTextBox.Location = new System.Drawing.Point(173, 152);
+            this.denominatorTextBox.Name = "denominatorTextBox";
+            this.denominatorTextBox.Size = new System.Drawing.Size(78, 20);
+            this.denominatorTextBox.TabIndex = 2;
+            // 
+            // countElemTextBox
+            // 
+            this.countElemTextBox.Location = new System.Drawing.Point(174, 178);
+            this.countElemTextBox.Name = "countElemTextBox";
+            this.countElemTextBox.Size = new System.Drawing.Size(77, 20);
+            this.countElemTextBox.TabIndex = 1;
             // 
             // tabPage3
             // 
@@ -246,6 +253,73 @@
             this.tabPage3.Text = "Завдання 3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // resultLabelTab3
+            // 
+            this.resultLabelTab3.AutoSize = true;
+            this.resultLabelTab3.Location = new System.Drawing.Point(152, 226);
+            this.resultLabelTab3.Name = "resultLabelTab3";
+            this.resultLabelTab3.Size = new System.Drawing.Size(65, 13);
+            this.resultLabelTab3.TabIndex = 8;
+            this.resultLabelTab3.Text = "Результат :";
+            // 
+            // cLabel
+            // 
+            this.cLabel.AutoSize = true;
+            this.cLabel.Location = new System.Drawing.Point(37, 179);
+            this.cLabel.Name = "cLabel";
+            this.cLabel.Size = new System.Drawing.Size(14, 13);
+            this.cLabel.TabIndex = 7;
+            this.cLabel.Text = "C";
+            // 
+            // bLabel
+            // 
+            this.bLabel.AutoSize = true;
+            this.bLabel.Location = new System.Drawing.Point(37, 150);
+            this.bLabel.Name = "bLabel";
+            this.bLabel.Size = new System.Drawing.Size(14, 13);
+            this.bLabel.TabIndex = 6;
+            this.bLabel.Text = "B";
+            // 
+            // aLabel
+            // 
+            this.aLabel.AutoSize = true;
+            this.aLabel.Location = new System.Drawing.Point(37, 127);
+            this.aLabel.Name = "aLabel";
+            this.aLabel.Size = new System.Drawing.Size(14, 13);
+            this.aLabel.TabIndex = 5;
+            this.aLabel.Text = "A";
+            // 
+            // aTextBox
+            // 
+            this.aTextBox.Location = new System.Drawing.Point(119, 124);
+            this.aTextBox.Name = "aTextBox";
+            this.aTextBox.Size = new System.Drawing.Size(143, 20);
+            this.aTextBox.TabIndex = 4;
+            // 
+            // cTextBox
+            // 
+            this.cTextBox.Location = new System.Drawing.Point(119, 176);
+            this.cTextBox.Name = "cTextBox";
+            this.cTextBox.Size = new System.Drawing.Size(143, 20);
+            this.cTextBox.TabIndex = 3;
+            // 
+            // bTextBox
+            // 
+            this.bTextBox.Location = new System.Drawing.Point(119, 150);
+            this.bTextBox.Name = "bTextBox";
+            this.bTextBox.Size = new System.Drawing.Size(143, 20);
+            this.bTextBox.TabIndex = 2;
+            // 
+            // resultTab3
+            // 
+            this.resultTab3.Location = new System.Drawing.Point(40, 221);
+            this.resultTab3.Name = "resultTab3";
+            this.resultTab3.Size = new System.Drawing.Size(90, 23);
+            this.resultTab3.TabIndex = 1;
+            this.resultTab3.Text = "Розрохувати";
+            this.resultTab3.UseVisualStyleBackColor = true;
+            this.resultTab3.Click += new System.EventHandler(this.resultTab3_Click);
+            // 
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.resultTab4);
@@ -261,6 +335,42 @@
             this.tabPage4.Text = "Завдання 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // resultTab4
+            // 
+            this.resultTab4.AutoSize = true;
+            this.resultTab4.Location = new System.Drawing.Point(207, 228);
+            this.resultTab4.Name = "resultTab4";
+            this.resultTab4.Size = new System.Drawing.Size(94, 13);
+            this.resultTab4.TabIndex = 4;
+            this.resultTab4.Text = "Доступні модулі :";
+            // 
+            // passLabel
+            // 
+            this.passLabel.AutoSize = true;
+            this.passLabel.Location = new System.Drawing.Point(64, 168);
+            this.passLabel.Name = "passLabel";
+            this.passLabel.Size = new System.Drawing.Size(84, 13);
+            this.passLabel.TabIndex = 3;
+            this.passLabel.Text = "Введіть пароль";
+            // 
+            // passwordTextBox
+            // 
+            this.passwordTextBox.Location = new System.Drawing.Point(210, 161);
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
+            this.passwordTextBox.TabIndex = 2;
+            this.passwordTextBox.TextChanged += new System.EventHandler(this.passwordTextBox_TextChanged);
+            // 
+            // passwordButton
+            // 
+            this.passwordButton.Location = new System.Drawing.Point(67, 223);
+            this.passwordButton.Name = "passwordButton";
+            this.passwordButton.Size = new System.Drawing.Size(75, 23);
+            this.passwordButton.TabIndex = 1;
+            this.passwordButton.Text = "Увійти";
+            this.passwordButton.UseVisualStyleBackColor = true;
+            this.passwordButton.Click += new System.EventHandler(this.passwordButton_Click);
+            // 
             // tabPage5
             // 
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
@@ -271,72 +381,57 @@
             this.tabPage5.Text = "Завдання 5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // resultTab3
+            // tabPage6
             // 
-            this.resultTab3.Location = new System.Drawing.Point(40, 221);
-            this.resultTab3.Name = "resultTab3";
-            this.resultTab3.Size = new System.Drawing.Size(90, 23);
-            this.resultTab3.TabIndex = 1;
-            this.resultTab3.Text = "Розрохувати";
-            this.resultTab3.UseVisualStyleBackColor = true;
-            this.resultTab3.Click += new System.EventHandler(this.resultTab3_Click);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(768, 400);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Завдання 6";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // bTextBox
+            // tabPage7
             // 
-            this.bTextBox.Location = new System.Drawing.Point(119, 150);
-            this.bTextBox.Name = "bTextBox";
-            this.bTextBox.Size = new System.Drawing.Size(143, 20);
-            this.bTextBox.TabIndex = 2;
+            this.tabPage7.Controls.Add(this.TextBox7);
+            this.tabPage7.Controls.Add(this.pictureBox5);
+            this.tabPage7.Controls.Add(this.CounterButton);
+            this.tabPage7.Controls.Add(this.CounterLabel);
+            this.tabPage7.Controls.Add(this.EnteredTextLabel);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(768, 400);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Завдання 7";
+            this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // cTextBox
+            // EnteredTextLabel
             // 
-            this.cTextBox.Location = new System.Drawing.Point(119, 176);
-            this.cTextBox.Name = "cTextBox";
-            this.cTextBox.Size = new System.Drawing.Size(143, 20);
-            this.cTextBox.TabIndex = 3;
+            this.EnteredTextLabel.AutoSize = true;
+            this.EnteredTextLabel.Location = new System.Drawing.Point(48, 151);
+            this.EnteredTextLabel.Name = "EnteredTextLabel";
+            this.EnteredTextLabel.Size = new System.Drawing.Size(76, 13);
+            this.EnteredTextLabel.TabIndex = 0;
+            this.EnteredTextLabel.Text = "Введіть текст";
             // 
-            // aTextBox
+            // CounterLabel
             // 
-            this.aTextBox.Location = new System.Drawing.Point(119, 124);
-            this.aTextBox.Name = "aTextBox";
-            this.aTextBox.Size = new System.Drawing.Size(143, 20);
-            this.aTextBox.TabIndex = 4;
+            this.CounterLabel.AutoSize = true;
+            this.CounterLabel.Location = new System.Drawing.Point(181, 282);
+            this.CounterLabel.Name = "CounterLabel";
+            this.CounterLabel.Size = new System.Drawing.Size(212, 13);
+            this.CounterLabel.TabIndex = 1;
+            this.CounterLabel.Text = "Кільккість символів перед двокрапкою :";
+            this.CounterLabel.Click += new System.EventHandler(this.label3_Click);
             // 
-            // aLabel
+            // CounterButton
             // 
-            this.aLabel.AutoSize = true;
-            this.aLabel.Location = new System.Drawing.Point(37, 127);
-            this.aLabel.Name = "aLabel";
-            this.aLabel.Size = new System.Drawing.Size(14, 13);
-            this.aLabel.TabIndex = 5;
-            this.aLabel.Text = "A";
-            // 
-            // bLabel
-            // 
-            this.bLabel.AutoSize = true;
-            this.bLabel.Location = new System.Drawing.Point(37, 150);
-            this.bLabel.Name = "bLabel";
-            this.bLabel.Size = new System.Drawing.Size(14, 13);
-            this.bLabel.TabIndex = 6;
-            this.bLabel.Text = "B";
-            // 
-            // cLabel
-            // 
-            this.cLabel.AutoSize = true;
-            this.cLabel.Location = new System.Drawing.Point(37, 179);
-            this.cLabel.Name = "cLabel";
-            this.cLabel.Size = new System.Drawing.Size(14, 13);
-            this.cLabel.TabIndex = 7;
-            this.cLabel.Text = "C";
-            // 
-            // resultLabelTab3
-            // 
-            this.resultLabelTab3.AutoSize = true;
-            this.resultLabelTab3.Location = new System.Drawing.Point(152, 226);
-            this.resultLabelTab3.Name = "resultLabelTab3";
-            this.resultLabelTab3.Size = new System.Drawing.Size(65, 13);
-            this.resultLabelTab3.TabIndex = 8;
-            this.resultLabelTab3.Text = "Результат :";
+            this.CounterButton.Location = new System.Drawing.Point(51, 282);
+            this.CounterButton.Name = "CounterButton";
+            this.CounterButton.Size = new System.Drawing.Size(75, 23);
+            this.CounterButton.TabIndex = 3;
+            this.CounterButton.Text = "Розрахувати";
+            this.CounterButton.UseVisualStyleBackColor = true;
+            this.CounterButton.Click += new System.EventHandler(this.CounterButton_Click);
             // 
             // pictureBox1
             // 
@@ -375,59 +470,21 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
-            // passwordButton
+            // pictureBox5
             // 
-            this.passwordButton.Location = new System.Drawing.Point(67, 223);
-            this.passwordButton.Name = "passwordButton";
-            this.passwordButton.Size = new System.Drawing.Size(75, 23);
-            this.passwordButton.TabIndex = 1;
-            this.passwordButton.Text = "Увійти";
-            this.passwordButton.UseVisualStyleBackColor = true;
-            this.passwordButton.Click += new System.EventHandler(this.passwordButton_Click);
+            this.pictureBox5.Image = global::Lab__1.Properties.Resources.Снимок_экрана_2024_03_14_183603;
+            this.pictureBox5.Location = new System.Drawing.Point(51, 54);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(671, 52);
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
             // 
-            // passwordTextBox
+            // TextBox7
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(210, 161);
-            this.passwordTextBox.Name = "passwordTextBox";
-            this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
-            this.passwordTextBox.TabIndex = 2;
-            this.passwordTextBox.TextChanged += new System.EventHandler(this.passwordTextBox_TextChanged);
-            // 
-            // passLabel
-            // 
-            this.passLabel.AutoSize = true;
-            this.passLabel.Location = new System.Drawing.Point(64, 168);
-            this.passLabel.Name = "passLabel";
-            this.passLabel.Size = new System.Drawing.Size(84, 13);
-            this.passLabel.TabIndex = 3;
-            this.passLabel.Text = "Введіть пароль";
-            // 
-            // resultTab4
-            // 
-            this.resultTab4.AutoSize = true;
-            this.resultTab4.Location = new System.Drawing.Point(207, 228);
-            this.resultTab4.Name = "resultTab4";
-            this.resultTab4.Size = new System.Drawing.Size(94, 13);
-            this.resultTab4.TabIndex = 4;
-            this.resultTab4.Text = "Доступні модулі :";
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(768, 400);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Завдання 6";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(768, 400);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Завдання 7";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.TextBox7.Location = new System.Drawing.Point(184, 151);
+            this.TextBox7.Name = "TextBox7";
+            this.TextBox7.Size = new System.Drawing.Size(100, 20);
+            this.TextBox7.TabIndex = 5;
             // 
             // Form1
             // 
@@ -446,10 +503,13 @@
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -492,6 +552,11 @@
         private System.Windows.Forms.Button passwordButton;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button CounterButton;
+        private System.Windows.Forms.Label CounterLabel;
+        private System.Windows.Forms.Label EnteredTextLabel;
+        private System.Windows.Forms.TextBox TextBox7;
     }
 }
 

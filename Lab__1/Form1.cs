@@ -111,5 +111,29 @@ namespace Lab__1
             passwordTextBox.PasswordChar = '*';
             passwordTextBox.MaxLength = 10;
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CounterButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string input = TextBox7.Text;
+                int indexOfBox = input.IndexOf(":");
+                if(indexOfBox != -1)
+                {
+                    CounterLabel.Text = $"Кільккість символів перед двокрапкою : {indexOfBox}";
+                }
+                else
+                    CounterLabel.Text = "Кільккість символів перед двокрапкою : 0";
+            }
+            catch (Exception ex)
+            {
+                CounterLabel.Text = ex.Message;
+            }
+        }
     }
 }
